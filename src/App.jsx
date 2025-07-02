@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Home from "./pages/Home"
-import NotFound from "./pages/notFound"
+import NotFound from "./pages/NotFound"
 import Projects from "./pages/Projects"
 
 function App() {
