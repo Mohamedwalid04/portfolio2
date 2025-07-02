@@ -8,19 +8,19 @@ function Projects() {
         {
             title: "SPA usePopCorn",
             tags: ["React JS", "Restfull API"],
-            image: "/public/usepopcorn.png",
+            image: "/usepopcorn.png",
             Demo: "https://usepopcorn-for-movies.netlify.app/",
         },
         {
             title: "Hosting Website Gakwar",
             tags: ["HTML & CSS", "JavaScript"],
-            image: "/public/gakwar.png",
+            image: "/gakwar.png",
             Demo: "https://gakwar.netlify.app/",
         },
         {
             title: "Trading Website Exclsive",
             tags: ["NextJS", "Strpie", "Restfull API", "TailwindCSS", "NextAuth"],
-            image: "/public/Product Details page.jpg",
+            image: "/Product Details page.jpg",
             Demo: "https://exclusive-rouge.vercel.app/",
         }
     ];
