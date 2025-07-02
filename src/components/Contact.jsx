@@ -75,7 +75,7 @@ function Contact() {
             <hr className=''></hr>
             <div className='flex items-center justify-between'>
                 <div className='size-14 rounded-full'>
-                    <img className='rounded-full' src="/public/photo_2025-06-30_16-22-36.jpg" alt="Mohamed-Walid" />
+                    <img className='rounded-full' src="/photo_2025-06-30_16-22-36.jpg" alt="Mohamed-Walid" />
                 </div>
                 <div className='text-2xl flex items-center gap-2'>
                     <a href='https://www.facebook.com/Mohamed.Walid348/' target="_blank" className='text-blue-400'>
