@@ -3,7 +3,7 @@ function Projects() {
     const projects = [
         {
             title: "SPA useWeather",
-            image: "/public/useWeather.png",
+            image: "/useWeather.png",
             tech: ["ReactJS", "Tailwind", "Restfull API"],
             live: "https://useweathersearch.netlify.app/",
         },
@@ -28,19 +28,19 @@ function Projects() {
         {
             title: "SPA usePopCorn",
             tech: ["ReactJS", "Restfull API"],
-            image: "/public/usepopcorn.png",
+            image: "/usepopcorn.png",
             live: "https://usepopcorn-for-movies.netlify.app/",
         },
         {
             title: "Hosting Website Gakwar",
             tech: ["HTML", "CSS", "JavaScript"],
-            image: "/public/gakwar.png",
+            image: "/gakwar.png",
             live: "https://gakwar.netlify.app/",
         },
         {
             title: "Trading Website Exclsive",
             tech: ["NextJS", "Strpie", "Restfull API", "TailwindCSS", "NextAuth"],
-            image: "/public/Product Details page.jpg",
+            image: "/Product Details page.jpg",
             live: "https://exclusive-rouge.vercel.app/",
         }
     ];
