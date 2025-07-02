@@ -11,7 +11,7 @@ function MainSection() {
                     Front-End Developer | Expert in React & Next.js | Building Sleek E-Commerce & Dashboards | UI/UX to Code | API Integration | .NET Collaboration
                 </p>
                 <button className="flex items-center space-x-3 p-2 rounded-md font-pixel text-2xl transition-all bg-cyan-700 cursor-pointer hover:bg-cyan-900 group">
-                    <a href={"assets/react.svg"} download>Download CV</a>
+                    <a href={"/Cv.pdf"} download>Download CV</a>
                     <span className="text-base relative  group-hover:animate-download "> <FaArrowDown />
                     </span>
                 </button>
