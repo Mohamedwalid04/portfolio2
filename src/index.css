@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --main-color: #1b1f24;
+  --parg-color: #9c9c9c;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #364153;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #104e64;
+}
+
+body {
+  background-color: var(--main-color);
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Domine", serif;
+}
+
+section {
+  padding: 2rem 4rem;
+}
+
+section:nth-of-type(even) {
+  background-color: #21272e;
+}
+
+@theme {
+  --color-head-fotter: #1b1b1b;
+  --font-pixel: "Jersey 15", sans-serif;
+  --color-parag: #9c9c9c;
+  --animate-download: download 1s ease-in-out infinite;
+  --animate-moving: moving 1s ease-in-out infinite;
+  --animate-appear: appear 0.5s linear;
+  @keyframes download {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 5px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  @keyframes moving {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 5px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+.centerElements {
+  @apply flex items-center justify-center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  @apply w-[250px] h-fit p-1.5 rounded-lg bg-gray-700 text-white;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
