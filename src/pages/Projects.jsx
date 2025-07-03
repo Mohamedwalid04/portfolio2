@@ -23,7 +23,7 @@ function Projects() {
             title: "To Do List",
             image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/6717ed1852118e8f35667fe0/screenshot_2024-10-22-18-21-37-0000.webp&fit=cover&h=500&q=40&w=800",
             tech: ["HTML", "CSS", "JS"],
-            live: "https://solar-system-company.netlify.app/",
+            live: "https://to-do-routine.netlify.app/",
         },
         {
             title: "SPA usePopCorn",
