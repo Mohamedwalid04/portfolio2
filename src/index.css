@@ -119,12 +119,12 @@ section,
 footer {
   width: 100%;
 }
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   header,
   section,
   footer {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 8px;
+    padding-left: 8px;
   }
 }
 
