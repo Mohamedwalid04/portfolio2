@@ -7,7 +7,7 @@ function MainSection() {
                 <h1 className="font-bold text-5xl">
                     Mohamed Walid
                 </h1>
-                <p className="leading-6 text-justify text-lg w-80 font-pixel text-parag">
+                <p className="leading-6 text-justify text-lg w-40 font-pixel text-parag md:w-80">
                     Front-End Developer | Expert in React & Next.js | Building Sleek E-Commerce & Dashboards | UI/UX to Code | API Integration | .NET Collaboration
                 </p>
                 <button className="flex items-center space-x-3 p-2 rounded-md font-pixel text-2xl transition-all bg-cyan-700 cursor-pointer hover:bg-cyan-900 group">
