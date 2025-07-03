@@ -114,12 +114,3 @@ section:nth-of-type(even) {
   object-fit: cover;
 }
 
-
-@media (max-width: 768px) {
-  main{
-    width:300px;
-  }
-  section{
-    width: 300px;
-  }
-}
