@@ -113,3 +113,10 @@ section:nth-of-type(even) {
   height: 100%;
   object-fit: cover;
 }
+
+
+@media (max-width: 768px) {
+  section{
+    width: 300px;
+  }
+}
