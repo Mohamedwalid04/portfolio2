@@ -116,6 +116,9 @@ section:nth-of-type(even) {
 
 
 @media (max-width: 768px) {
+  main{
+    width:300px;
+  }
   section{
     width: 300px;
   }
