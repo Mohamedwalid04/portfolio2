@@ -1,10 +1,10 @@
-
+import { Link } from "react-router-dom"
 function Navbar() {
     return (
         <nav>
             <ul className="flex  items-center space-x-2 text-lg">
                 <li>
-                    <a href="#home">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
                     <a href="#skills">Skills</a>
