@@ -114,3 +114,17 @@ section:nth-of-type(even) {
   object-fit: cover;
 }
 
+header,
+section,
+footer {
+  width: 100%;
+}
+@media (max-width: 375px) {
+  header,
+  section,
+  footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
